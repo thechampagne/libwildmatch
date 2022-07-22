@@ -1,0 +1,19 @@
+[package]
+name = "wildmatch"
+version = "1.0.0"
+description = "Simple string matching with questionmark- and star-wildcard operator"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libwildmatch"
+repository = "https://github.com/thechampagne/libwildmatch"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "wildmatch"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+wildmatch = "2.1.1"
